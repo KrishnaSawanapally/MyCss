@@ -1,0 +1,116 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    display:flex;
+    justify-content: flex-end;
+    padding: 20px 30px;
+    align-items: center;
+}
+.header a {
+    margin-right: 20px;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 15px;
+    text-decoration:inherit;
+}
+.header a:hover {
+    text-decoration: underline;
+}
+.header_right {
+    display:flex;
+    align-items: centre;
+    min-width: 13vw;
+    justify-content: space-between;
+}
+.header_right .header_apps{
+    margin-right: 10px;
+}
+
+.main_body {
+    flex:1;
+    display:flex;
+    margin-top: 5%;
+    flex-direction: column;
+}
+.main_body img {
+    object-fit:contain;
+    height: 150px;
+}
+.search_input{
+display:flex;
+align-items: center;
+border: 1px solid lightgrey;
+height: 20px;
+padding:8px 15px;
+border-radius: 999px;
+width: 50vw;
+margin: 0 auto;
+margin-top: 10px;
+}
+.search_input input{
+    flex: 1;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+}
+.search_input .meterial-icons{
+    color:rgb(184, 180, 180);
+}
+
+.search_buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.search_buttons button{
+    margin: 5px;
+    padding: 5px 15px;
+    background-color: #f8f1f1;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.languages {
+    width: 60%;
+    margin: 15px auto;
+    padding-left: 125px;
+}
+
+.languages a {
+    text-decoration: none;
+    margin: 5px 5px;
+}
+
+.languages .lang {
+    display: inline;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+#footer_bar{
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #00060c;
+    background-color: #f3f3f3;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif,sans-serif;
+    line-height: 40px;
+    border-top: 1px solid #e4e4e4;
+}
+.footer-left{
+    padding-left: 27px;
+    float: left;
+}
+.footer-right{
+    padding-right: 27px;
+    float: right;
+}
+.header-footer-link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
